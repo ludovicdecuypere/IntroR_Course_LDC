@@ -1,5 +1,5 @@
 ---
-title: "IntroR_Course_LDC"
+title: "Introduction to R"
 ---
 
 ## General description

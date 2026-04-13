@@ -1,8 +1,6 @@
 ---
-title: "Introduction to R"
+title: "Welcome"
 ---
-
-## Welcome!
 
 This is the course website with all the lesson materials for a 15 hour introductory course on R. I've been teaching this course for over ten years at various places, mostly at summer schools aimed at graduate students in Linguistics. There's no shortage of excellent introductory courses on R out there. This is just one of them, but one that I find to be very welcoming to students of Linguistics with little to no background in R and who would like to learn some basic R skills in the context of statistical data analysis. 
 

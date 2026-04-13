@@ -35,58 +35,51 @@
     "text": "Listening to accents\nThis dataset contains …\n\nDownload: Listening_to_Accents_Comprehensibility_Accentedness.csv\n\n\nCodebook\n\n\n\nVariable\nDescription\n\n\n\n\nstudent\n…\n\n\nSchool\n…\n\n\nClass\n…\n\n\nClass\n…\n\n\n\n\n\nData Preview\n\n\n  ID Participant  Accent Comprehensibility Accentedness\n1  1           7 ChinEng                 3            7\n2  2           7     GAE                 1            1\n3  3           7     GBE                 5            6\n4  4           7  IndEng                 3            8\n5  5           7     NBE                 4            4\n6  6           7  NigEng                 2            4\n  Familiarity\n1       Never\n2  Very Often\n3       Often\n4      Rarely\n5      Rarely\n6       Never"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "Coursebook.html",
+    "href": "Coursebook.html",
+    "title": "Coursebook",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "To do: add link to coursebook online + pdf"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Introduction to R",
-    "section": "",
-    "text": "This is the course website with all the lesson materials for a 15 hour introductory course on R. I’ve been teaching this course for over ten years at various places, mostly at summer schools aimed at graduate students in Linguistics. There’s no shortage of excellent introductory courses on R out there. This is just one of them, but one that I find to be very welcoming to students of Linguistics with little to no background in R and who would like to learn some basic R skills in the context of statistical data analysis."
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Introduction to R",
+    "title": "Welcome",
     "section": "",
     "text": "This is the course website with all the lesson materials for a 15 hour introductory course on R. I’ve been teaching this course for over ten years at various places, mostly at summer schools aimed at graduate students in Linguistics. There’s no shortage of excellent introductory courses on R out there. This is just one of them, but one that I find to be very welcoming to students of Linguistics with little to no background in R and who would like to learn some basic R skills in the context of statistical data analysis."
   },
   {
     "objectID": "index.html#audience",
     "href": "index.html#audience",
-    "title": "Introduction to R",
+    "title": "Welcome",
     "section": "Audience",
     "text": "Audience\nThis is a beginner’s course. You will be required to install R and Rstudio on your laptop before coming to class."
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
-    "title": "Introduction to R",
+    "title": "Welcome",
     "section": "Overview",
     "text": "Overview\nThis beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics will be covered:\n\nUnderstanding the difference between R, Rstudio and R notebook\nExploring basic arithmetic and logical operations.\nIntroduction to essential data structures, including vectors, matrices, and data frames\nImporting data files\nManipulating, indexing and pivoting data structures\nGenerating descriptive statistics and visualisations in base-R\nIntroduction to the tidyverse approach (incl. ggplot2 visualisations)"
   },
   {
     "objectID": "index.html#getting-started",
     "href": "index.html#getting-started",
-    "title": "Introduction to R",
+    "title": "Welcome",
     "section": "Getting started",
     "text": "Getting started\n\nInstall R\nInstall RStudio\n\nGo to the Quarto website and follow the instructions: https://quarto.org/docs/get-started/"
   },
   {
     "objectID": "index.html#course-materials",
     "href": "index.html#course-materials",
-    "title": "Introduction to R",
+    "title": "Welcome",
     "section": "Course materials",
     "text": "Course materials\nAll course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises, datasets and further reading materials. If you’re a participant or an instructor using this website, I will also provide you with the full solutions to the exercises."
   },
   {
     "objectID": "index.html#approach",
     "href": "index.html#approach",
-    "title": "Introduction to R",
+    "title": "Welcome",
     "section": "Approach",
     "text": "Approach\nNothing beats hands-on instruction from an actual instructor. I also find it very important to start slowly. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio - it’s less scary than one might think. I also like to start with base R, rather than jump straight into the deep end with tidyverse. This is very much inspired by Norm Matloff’s fasteR course, which is definitely one of my favourite online R courses; check it out: https://github.com/matloff/faster"
   }

@@ -5,6 +5,7 @@ project:
 website:
   title: "Intro to R"
   description: "Course website Introduction to R"
+  page-navigation: true
   page-footer:
     left: |
       <span class="faux-block">{{< fa brands creative-commons >}} 2026 -  Ludovic De Cuypere</span>

@@ -2,10 +2,32 @@
 title: "IntroR_Course_LDC"
 ---
 
-This is a Quarto website.
+## General description
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+R is a widely-used programming language for statistical data analysis. This beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.
 
-```{r}
-1 + 1
-```
+The following key topics will be covered:
+
+- Understanding the difference between R, Rstudio and R notebook
+- Exploring basic arithmetic and logical operations.
+- Introduction to essential data structures, including vectors, matrices, and data frames
+- Importing data files
+- Manipulating, indexing and pivoting data structures
+- Generating descriptive statistics and visualisations in base-R
+- Introduction to the tidyverse approach (incl. ggplot2 visualisations)
+
+## Getting started
+
+1. Install R
+2. Install RStudio
+
+## Target audience and course prerequisites
+
+This is a beginner’s course.  You will be required to install R and Rstudio on your laptop before coming to class.
+
+## Course materials
+
+All course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises and solutions, datasets and further reading materials.
+
+
+

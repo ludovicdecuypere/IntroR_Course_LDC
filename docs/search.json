@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IntroR_Course_LDC",
+    "section": "",
+    "text": "R is a widely-used programming language for statistical data analysis. This beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics will be covered:\n\nUnderstanding the difference between R, Rstudio and R notebook\nExploring basic arithmetic and logical operations.\nIntroduction to essential data structures, including vectors, matrices, and data frames\nImporting data files\nManipulating, indexing and pivoting data structures\nGenerating descriptive statistics and visualisations in base-R\nIntroduction to the tidyverse approach (incl. ggplot2 visualisations)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#general-description",
+    "href": "index.html#general-description",
+    "title": "IntroR_Course_LDC",
+    "section": "",
+    "text": "R is a widely-used programming language for statistical data analysis. This beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics will be covered:\n\nUnderstanding the difference between R, Rstudio and R notebook\nExploring basic arithmetic and logical operations.\nIntroduction to essential data structures, including vectors, matrices, and data frames\nImporting data files\nManipulating, indexing and pivoting data structures\nGenerating descriptive statistics and visualisations in base-R\nIntroduction to the tidyverse approach (incl. ggplot2 visualisations)"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "IntroR_Course_LDC",
+    "section": "Getting started",
+    "text": "Getting started\n\nInstall R\nInstall RStudio"
+  },
+  {
+    "objectID": "index.html#target-audience-and-course-prerequisites",
+    "href": "index.html#target-audience-and-course-prerequisites",
+    "title": "IntroR_Course_LDC",
+    "section": "Target audience and course prerequisites",
+    "text": "Target audience and course prerequisites\nThis is a beginner’s course. You will be required to install R and Rstudio on your laptop before coming to class."
+  },
+  {
+    "objectID": "index.html#course-materials",
+    "href": "index.html#course-materials",
+    "title": "IntroR_Course_LDC",
+    "section": "Course materials",
+    "text": "Course materials\nAll course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises and solutions, datasets and further reading materials."
+  }
+]

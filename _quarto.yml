@@ -1,14 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "IntroR_Course_LDC"
   navbar:
-    left:
+    right:
       - href: index.qmd
-        text: Home
+        text: Overview
       - about.qmd
-
+      
 format:
   html:
     theme:

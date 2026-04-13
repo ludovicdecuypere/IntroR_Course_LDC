@@ -4,35 +4,49 @@
     "href": "index.html",
     "title": "Introduction to R",
     "section": "",
-    "text": "R is a widely-used programming language for statistical data analysis. This beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics will be covered:\n\nUnderstanding the difference between R, Rstudio and R notebook\nExploring basic arithmetic and logical operations.\nIntroduction to essential data structures, including vectors, matrices, and data frames\nImporting data files\nManipulating, indexing and pivoting data structures\nGenerating descriptive statistics and visualisations in base-R\nIntroduction to the tidyverse approach (incl. ggplot2 visualisations)"
+    "text": "This is the course website with all the lesson materials for a 15 hour introductory course on R. I’ve been teaching this course for over ten years at various places, mostly at summer schools aimed at graduate students in Linguistics. There’s no shortage of excellent introductory courses on R out there. This is just one of them, but one that I find to be very welcoming to students of Linguistics with little to no background in R and who would like to learn some basic R skills in the context of statistical data analysis."
   },
   {
-    "objectID": "index.html#general-description",
-    "href": "index.html#general-description",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
     "title": "Introduction to R",
     "section": "",
-    "text": "R is a widely-used programming language for statistical data analysis. This beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics will be covered:\n\nUnderstanding the difference between R, Rstudio and R notebook\nExploring basic arithmetic and logical operations.\nIntroduction to essential data structures, including vectors, matrices, and data frames\nImporting data files\nManipulating, indexing and pivoting data structures\nGenerating descriptive statistics and visualisations in base-R\nIntroduction to the tidyverse approach (incl. ggplot2 visualisations)"
+    "text": "This is the course website with all the lesson materials for a 15 hour introductory course on R. I’ve been teaching this course for over ten years at various places, mostly at summer schools aimed at graduate students in Linguistics. There’s no shortage of excellent introductory courses on R out there. This is just one of them, but one that I find to be very welcoming to students of Linguistics with little to no background in R and who would like to learn some basic R skills in the context of statistical data analysis."
+  },
+  {
+    "objectID": "index.html#audience",
+    "href": "index.html#audience",
+    "title": "Introduction to R",
+    "section": "Audience",
+    "text": "Audience\nThis is a beginner’s course. You will be required to install R and Rstudio on your laptop before coming to class."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Introduction to R",
+    "section": "Overview",
+    "text": "Overview\nThis beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics will be covered:\n\nUnderstanding the difference between R, Rstudio and R notebook\nExploring basic arithmetic and logical operations.\nIntroduction to essential data structures, including vectors, matrices, and data frames\nImporting data files\nManipulating, indexing and pivoting data structures\nGenerating descriptive statistics and visualisations in base-R\nIntroduction to the tidyverse approach (incl. ggplot2 visualisations)"
   },
   {
     "objectID": "index.html#getting-started",
     "href": "index.html#getting-started",
     "title": "Introduction to R",
     "section": "Getting started",
-    "text": "Getting started\n\nInstall R\nInstall RStudio"
-  },
-  {
-    "objectID": "index.html#target-audience-and-course-prerequisites",
-    "href": "index.html#target-audience-and-course-prerequisites",
-    "title": "Introduction to R",
-    "section": "Target audience and course prerequisites",
-    "text": "Target audience and course prerequisites\nThis is a beginner’s course. You will be required to install R and Rstudio on your laptop before coming to class."
+    "text": "Getting started\n\nInstall R\nInstall RStudio\n\nGo to the Quarto website and follow the instructions: https://quarto.org/docs/get-started/"
   },
   {
     "objectID": "index.html#course-materials",
     "href": "index.html#course-materials",
     "title": "Introduction to R",
     "section": "Course materials",
-    "text": "Course materials\nAll course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises and solutions, datasets and further reading materials."
+    "text": "Course materials\nAll course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises, datasets and further reading materials. If you’re a participant or an instructor using this website, I will also provide you with the full solutions to the exercises."
+  },
+  {
+    "objectID": "index.html#approach",
+    "href": "index.html#approach",
+    "title": "Introduction to R",
+    "section": "Approach",
+    "text": "Approach\nNothing beats hands-on instruction from an actual instructor. I also find it very important to start slowly. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio. I also like to start with base R, rather than jump straight into the deep end with tidyverse. This is very much inspired by Norm Matloff’s fasteR course, which is definitely one of my favourite online R courses; check it out: https://github.com/matloff/faster"
   },
   {
     "objectID": "about.html",

@@ -2,9 +2,17 @@
 title: "Introduction to R"
 ---
 
-## General description
+## Welcome!
 
-R is a widely-used programming language for statistical data analysis. This beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.
+This is the course website with all the lesson materials for a 15 hour introductory course on R. I've been teaching this course for over ten years at various places, mostly at summer schools aimed at graduate students in Linguistics. There's no shortage of excellent introductory courses on R out there. This is just one of them, but one that I find to be very welcoming to students of Linguistics with little to no background in R and who would like to learn some basic R skills in the context of statistical data analysis. 
+
+## Audience
+
+This is a beginner’s course.  You will be required to install R and Rstudio on your laptop before coming to class. 
+
+## Overview
+
+This beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.
 
 The following key topics will be covered:
 
@@ -21,13 +29,17 @@ The following key topics will be covered:
 1. Install R
 2. Install RStudio
 
-## Target audience and course prerequisites
-
-This is a beginner’s course.  You will be required to install R and Rstudio on your laptop before coming to class.
+Go to the Quarto website and follow the instructions: <https://quarto.org/docs/get-started/>
 
 ## Course materials
 
-All course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises and solutions, datasets and further reading materials.
+All course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises, datasets and further reading materials. If you're a participant or an instructor using this website, I will also provide you with the full solutions to the exercises. 
+
+## Approach
+
+Nothing beats hands-on instruction from an actual instructor. I also find it very important to start slowly. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio. I also like to start with base R, rather than jump straight into the deep end with tidyverse. This is very much inspired by Norm Matloff's fasteR course, which is definitely one of my favourite online R courses; check it out: 
+<https://github.com/matloff/faster>
+
 
 
 

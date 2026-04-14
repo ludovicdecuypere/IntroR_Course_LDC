@@ -1,11 +1,11 @@
 ---
 title: "Welcome to Intro to R"
-subtitle: "Workshop MILS 2026"
+subtitle: "MILS 2026: Module 1"
 author:
   - name: Ludovic De Cuypere
     orcid: 0000-0002-0050-1097
     email: Ludovic.De.Cuypere@vub.be
-    affiliations: Vrije Universiteit Brussel/Ghent University
+    affiliations: Vrije Universiteit Brussel & Ghent University
 ---
 
 This is the course website for **Module 1: Introduction to R**, a 15 hour introductory course delivered at the summer school [Methods in Language Sciences](https://www.mils.ugent.be/) 2026, Ghent University. 

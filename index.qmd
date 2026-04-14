@@ -1,18 +1,19 @@
 ---
-title: "Welcome"
+title: "Welcome to Intro to R"
+subtitle: "Workshop MILS 2026"
+author:
+  - name: Ludovic De Cuypere
+    orcid: 0000-0002-0050-1097
+    email: Ludovic.De.Cuypere@vub.be
+    affiliations: Vrije Universiteit Brussel/Ghent University
 ---
 
-This is the course website with all the lesson materials for a 15 hour introductory course on R. I've been teaching this course for over ten years at various places, mostly at summer schools aimed at graduate students in Linguistics. There's no shortage of excellent introductory courses on R out there. This is just one of them, but one that I find to be very welcoming to students of Linguistics with little to no background in R and who would like to learn some basic R skills in the context of statistical data analysis. 
+This is the course website for **Module 1: Introduction to R**, a 15 hour introductory course delivered at the summer school [Methods in Language Sciences]<https://www.mils.ugent.be/> 2026, Ghent University. 
+Although there is no shortage of excellent introductory courses on R these days, this particular course specifically caters to students of linguistics with little to no background in R (or programming for that matter) and whose aim is to learn basic R skills in the context of statistical data analysis. 
 
-## Audience
+This beginner-friendly course aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.
 
-This is a beginner’s course.  You will be required to install R and Rstudio on your laptop before coming to class. 
-
-## Overview
-
-This beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.
-
-The following key topics will be covered:
+The following key topics are covered:
 
 - Understanding the difference between R, Rstudio and R notebook
 - Exploring basic arithmetic and logical operations.
@@ -31,13 +32,42 @@ Go to the Quarto website and follow the instructions: <https://quarto.org/docs/g
 
 ## Course materials
 
-All course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises, datasets and further reading materials. If you're a participant or an instructor using this website, I will also provide you with the full solutions to the exercises. 
+All course materials for this module are provided on this website and includes slides, R-scripts and Notebooks, exercises, datasets and further reading materials.
+
+## Instructors
+
+*Gil Verbeke* is a PhD researcher at the Linguistics Department of Ghent University. His research interests include second language acquisition, speech perception, phonetics and phonology. The overarching aim of his PhD dissertation is to examine how pronunciation variation in spoken English affects speech perception and word recognition for late second language learners of English. Several of his experimental studies have been published in international journals, including Bilingualism: Language and Cognition and Lingua.
+
+*Romeo De Timmerman* is a PhD researcher at the Linguistics Department of Ghent University. He is also completing a Master’s degree in computational statistics at the same university. His research focuses on language variation through both sociolinguistic and computational approaches. His current projects investigate (i) the prevalence of African American English features in blues music and (ii) potential linguistic biases against African American English in Large Language Models.
 
 ## Approach
 
-Nothing beats hands-on instruction from an actual instructor. I also find it very important to start slowly. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio - it's less scary than one might think. I also like to start with base R, rather than jump straight into the deep end with tidyverse. This is very much inspired by Norm Matloff's fasteR course, which is definitely one of my favourite online R courses; check it out: 
-<https://github.com/matloff/faster>
+Nothing beats hands-on instruction from an experienced instructor. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio - which is less scary than one might think. This course also starts with base R, rather than jumping  straight into the deep end with tidyverse. This is very much inspired by Norm Matloff's course [fasteR]
+<https://github.com/matloff/faster>. 
 
+## Schedule
 
+### DAY 1
 
+| Time          | Topic        | 
+|:-------------:|:------------:|
+| 09:00 - 10:30 | ADD LINK     |
+| 11:00 - 12:30 | ADD LINK     | 
+| 14:00 - 15:30 | ADD LINK     | 
+| 16:00 - 17:30 | ADD LINK     | 
 
+### DAY 2
+
+| Time          | Topic        | 
+|:-------------:|:------------:|
+| 09:00 - 10:30 | ADD LINK     |
+| 11:00 - 12:30 | ADD LINK     | 
+| 14:00 - 15:30 | ADD LINK     | 
+| 16:00 - 17:30 | ADD LINK     | 
+
+### DAY 3
+
+| Time          | Topic        | 
+|:-------------:|:------------:|
+| 09:00 - 10:30 | ADD LINK     |
+| 11:00 - 12:30 | ADD LINK     | 

@@ -44,43 +44,43 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Welcome to Intro to R",
     "section": "",
-    "text": "This is the course website with all the lesson materials for a 15 hour introductory course on R. I’ve been teaching this course for over ten years at various places, mostly at summer schools aimed at graduate students in Linguistics. There’s no shortage of excellent introductory courses on R out there. This is just one of them, but one that I find to be very welcoming to students of Linguistics with little to no background in R and who would like to learn some basic R skills in the context of statistical data analysis."
-  },
-  {
-    "objectID": "index.html#audience",
-    "href": "index.html#audience",
-    "title": "Welcome",
-    "section": "Audience",
-    "text": "Audience\nThis is a beginner’s course. You will be required to install R and Rstudio on your laptop before coming to class."
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Welcome",
-    "section": "Overview",
-    "text": "Overview\nThis beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics will be covered:\n\nUnderstanding the difference between R, Rstudio and R notebook\nExploring basic arithmetic and logical operations.\nIntroduction to essential data structures, including vectors, matrices, and data frames\nImporting data files\nManipulating, indexing and pivoting data structures\nGenerating descriptive statistics and visualisations in base-R\nIntroduction to the tidyverse approach (incl. ggplot2 visualisations)"
+    "text": "This is the course website for Module 1: Introduction to R, a 15 hour introductory course delivered at the summer school Methods in Language Sciences 2026, Ghent University.\nThere’s no shortage of excellent introductory courses on R these days. This particular course specifically caters to students of linguistics with little to no background in R (or programming for that matter) and whose aim is to learn basic R skills in the context of statistical data analysis.\nThis beginner-friendly module aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics are covered:"
   },
   {
     "objectID": "index.html#getting-started",
     "href": "index.html#getting-started",
-    "title": "Welcome",
+    "title": "Welcome to Intro to R",
     "section": "Getting started",
     "text": "Getting started\n\nInstall R\nInstall RStudio\n\nGo to the Quarto website and follow the instructions: https://quarto.org/docs/get-started/"
   },
   {
     "objectID": "index.html#course-materials",
     "href": "index.html#course-materials",
-    "title": "Welcome",
+    "title": "Welcome to Intro to R",
     "section": "Course materials",
-    "text": "Course materials\nAll course materials are provided on this website and includes slides, R-scripts and Notebooks, exercises, datasets and further reading materials. If you’re a participant or an instructor using this website, I will also provide you with the full solutions to the exercises."
+    "text": "Course materials\nAll course materials for this module are provided on this website and includes slides, R-scripts and Notebooks, exercises, datasets and further reading materials."
+  },
+  {
+    "objectID": "index.html#instructors",
+    "href": "index.html#instructors",
+    "title": "Welcome to Intro to R",
+    "section": "Instructors",
+    "text": "Instructors\nGil Verbeke is a PhD researcher at the Linguistics Department of Ghent University. His research interests include second language acquisition, speech perception, phonetics and phonology. The overarching aim of his PhD dissertation is to examine how pronunciation variation in spoken English affects speech perception and word recognition for late second language learners of English. Several of his experimental studies have been published in international journals, including Bilingualism: Language and Cognition and Lingua.\nRomeo De Timmerman is a PhD researcher at the Linguistics Department of Ghent University. He is also completing a Master’s degree in computational statistics at the same university. His research focuses on language variation through both sociolinguistic and computational approaches. His current projects investigate (i) the prevalence of African American English features in blues music and (ii) potential linguistic biases against African American English in Large Language Models."
   },
   {
     "objectID": "index.html#approach",
     "href": "index.html#approach",
-    "title": "Welcome",
+    "title": "Welcome to Intro to R",
     "section": "Approach",
-    "text": "Approach\nNothing beats hands-on instruction from an actual instructor. I also find it very important to start slowly. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio - it’s less scary than one might think. I also like to start with base R, rather than jump straight into the deep end with tidyverse. This is very much inspired by Norm Matloff’s fasteR course, which is definitely one of my favourite online R courses; check it out: https://github.com/matloff/faster"
+    "text": "Approach\nNothing beats hands-on instruction from an experienced instructor. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio - which is less scary than one might think. This course also starts with base R, rather than jumping straight into the deep end with tidyverse. This is very much inspired by Norm Matloff’s course [fasteR] https://github.com/matloff/faster."
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Welcome to Intro to R",
+    "section": "Schedule",
+    "text": "Schedule\n\nDAY 1\n\n\n\nTime\nTopic\n\n\n\n\n09:00 - 10:30\nADD LINK\n\n\n11:00 - 12:30\nADD LINK\n\n\n14:00 - 15:30\nADD LINK\n\n\n16:00 - 17:30\nADD LINK\n\n\n\n\n\nDAY 2\n\n\n\nTime\nTopic\n\n\n\n\n09:00 - 10:30\nADD LINK\n\n\n11:00 - 12:30\nADD LINK\n\n\n14:00 - 15:30\nADD LINK\n\n\n16:00 - 17:30\nADD LINK\n\n\n\n\n\nDAY 3\n\n\n\nTime\nTopic\n\n\n\n\n09:00 - 10:30\nADD LINK\n\n\n11:00 - 12:30\nADD LINK"
   }
 ]

@@ -3,9 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Intro to R"
-  description: "Course website Introduction to R"
-  page-navigation: true
+  title: "Intro to R, MILS 2026, Ghent"
+  site-url: https://ludovicdecuypere.github.io/IntroR_Course_LDC/
+  repo-url: https://github.com/ludovicdecuypere/IntroR_Course_LDC
+  repo-actions: [issue]
   page-footer:
     left: |
       <span class="faux-block">{{< fa brands creative-commons >}} 2026 -  Ludovic De Cuypere</span>
@@ -17,13 +18,15 @@ website:
     right:
       - href: index.qmd
         text: Overview
+        text: About
       - href: Coursebook.qmd
         text: Coursebook
       - href: Slides.qmd
         text: Slides
       - href: Data.qmd
         text: Data
-        
+  page-navigation: true
+      
 format:
   html:
     theme: [Journal, mystyle_main.scss]

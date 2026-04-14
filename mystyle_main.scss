@@ -7,7 +7,7 @@ $black: #0f0f0f;
 $white: #ffffff;
 $soft-gray: #f8f8f8;  
 $medium-gray: #3b3b3b;
-$vuborange: #0099ff;
+$blue: #0099ff;
 
 // Font Variables
 $font-family-serif: "EB Garamond", serif;
@@ -17,7 +17,7 @@ $font-family-sans-serif: "Inter", sans-serif;
 $body-family: $font-family-serif;
 $headings-font-family: $font-family-sans-serif;
 
-$navbar-bg: $vuborange;
+$navbar-bg: $blue;
 $body-bg: #ffffff;
 $navbar-fg: $white;
 $headings-color: black;
@@ -60,7 +60,7 @@ $link-color: $black;
   // Hover & Active States
   &:hover::after,
   &.active::after {
-    width: 70%; // Elegant partial underline
+    width: 70%;
   }
 }
 

@@ -17,7 +17,6 @@ website:
   navbar:
     right:
       - href: index.qmd
-        text: Overview
         text: About
       - href: Coursebook.qmd
         text: Coursebook

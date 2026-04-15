@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Intro to R, MILS 2026, Ghent"
+  title: "Intro to R"
   site-url: https://ludovicdecuypere.github.io/IntroR_Course_LDC/
   repo-url: https://github.com/ludovicdecuypere/IntroR_Course_LDC
   repo-actions: [issue]
@@ -25,11 +25,10 @@ website:
       - href: Data.qmd
         text: Data
   page-navigation: true
-      
+
 format:
   html:
     theme: [Journal, mystyle_main.scss]
-    mainfont: EB+Garamond
     toc: true
     toc-depth: 2
     toc-title: "Contents"

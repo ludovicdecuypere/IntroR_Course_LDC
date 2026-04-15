@@ -1,15 +1,18 @@
 ---
-title: "Welcome to Intro to R"
-subtitle: "MILS 2026: Module 1"
+title: "Welcome!"
+subtitle: "MILS 2026: Intro to R"
+date: 2026-04-15
+date-format: long
+date-modified: last-modified
 author:
   - name: Ludovic De Cuypere
     orcid: 0000-0002-0050-1097
     email: Ludovic.De.Cuypere@vub.be
     affiliations: Vrije Universiteit Brussel & Ghent University
 ---
+This is the course website for **Module 1: Introduction to R**, a 15 hour introductory course delivered at the summer school [Methods in Language Sciences](https://www.mils.ugent.be/) at Ghent University. 
 
-This is the course website for **Module 1: Introduction to R**, a 15 hour introductory course delivered at the summer school [Methods in Language Sciences](https://www.mils.ugent.be/) 2026, Ghent University. 
-Although there is no shortage of excellent introductory courses on R these days, this particular course specifically caters to students of linguistics with little to no background in R (or programming for that matter) and whose aim is to learn basic R skills in the context of statistical data analysis. 
+Although there is no shortage of excellent introductory courses on R these days, this particular course specifically caters to students of linguistics with little to no background in R (or programming for that matter) and who wish to learn R in the context of statistical data analysis. 
 
 This beginner-friendly course aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.
 
@@ -24,6 +27,8 @@ The following key topics are covered:
 - Introduction to the tidyverse approach (incl. ggplot2 visualisations)
 
 ## Getting started
+
+Before coming to class make sure to:
 
 1. Install R
 2. Install RStudio
@@ -42,7 +47,7 @@ All course materials for this module are provided on this website and includes s
 
 ## Approach
 
-Nothing beats hands-on instruction from an experienced instructor. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio - which is less scary than one might think. This course also starts with base R, rather than jumping  straight into the deep end with tidyverse. This is very much inspired by Norm Matloff's course [fasteR]
+Nothing beats hands-on instruction from an experienced instructor. You are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience, especially for beginners. Don't remore friction by using genAI or LLMs from the very beginning. Yes, LLMs are incredibly good and will assist you at a later stage, but resits the temptation to use these tools as a beginner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio -- which is less scary than one might think. This course also starts with base R, rather than jumping  straight into the deep end with tidyverse. This is very much inspired by Norm Matloff's course [fasteR]
 <https://github.com/matloff/faster>. 
 
 ## Schedule

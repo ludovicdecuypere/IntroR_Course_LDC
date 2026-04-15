@@ -7,80 +7,87 @@
     "text": "Note\n\n\n\nIn order to see the slides full screen, click on a slide and press f. Press esc to go back to normal rendering."
   },
   {
-    "objectID": "Data.html",
-    "href": "Data.html",
-    "title": "Data",
-    "section": "",
-    "text": "Below you will find the datasets used in this course. You can download them directly or use the provided links to load them into R/RStudio."
-  },
-  {
-    "objectID": "Data.html#false-beginners",
-    "href": "Data.html#false-beginners",
-    "title": "Data",
-    "section": "False beginners",
-    "text": "False beginners\nThis dataset contains …\n\nDownload: FalseBeginners.txt\nFormat: tab delimited text file\n\n\nCodebook\n\n\n\nVariable\nDescription\n\n\n\n\nstudent\n…\n\n\nSchool\n…\n\n\nClass\n…\n\n\nClass\n…\n\n\n\n\n\nData Preview\n\n\n  Student School Class PPVT Speaking Listening ReadingWriting Attitude    L1\n1      10     S1    1A   70        4         7             13 positive dutch\n2      14     S1    1A   79        7        14             18 positive dutch\n3       2     S1    1A   98       19        24             37 positive dutch\n4       3     S1    1A   80       11        17             30 positive dutch\n5       4     S1    1A   76        7         9             18 positive dutch\n6       5     S1    1A   85       16        17             22 positive dutch\n     Sex\n1 female\n2   male\n3   male\n4   male\n5   male\n6   male"
-  },
-  {
-    "objectID": "Data.html#vocatives",
-    "href": "Data.html#vocatives",
-    "title": "Data",
-    "section": "Vocatives",
-    "text": "Vocatives\ndataset_ImPoliteVocatives_20230530.csv\nThis dataset contains …\n\nDownload: dataset_ImPoliteVocatives_20230530.csv\n\n\nCodebook\n\n\n\nVariable\nDescription\n\n\n\n\nstudent\n…\n\n\nSchool\n…\n\n\nClass\n…\n\n\nClass\n…\n\n\n\n\n\nData Preview\n\n\n     form communication semantic_category\n1    coño AM_GEN4_M_01a         nom_taboo\n2    coño AM_GEN4_M_01a         nom_taboo\n3 hermano AM_GEN4_M_01a  nom_familiarizer\n4   PropN AM_GEN4_M_01a             PropN\n5   PropN AM_GEN4_M_01a             PropN\n6   PropN AM_GEN4_M_01a             PropN\n  speaker_generation speaker_gender relationship speech_act\n1               GEN4              M    intimates    neutral\n2               GEN4              M    intimates    neutral\n3               GEN4              M    intimates    neutral\n4               GEN4              M    intimates    neutral\n5               GEN4              M    intimates    neutral\n6               GEN4              M    intimates    neutral\n  reaction effect_voc\n1  neutral     banter\n2  neutral     banter\n3       na    neutral\n4  neutral    neutral\n5  neutral     banter\n6  neutral    neutral"
-  },
-  {
-    "objectID": "Data.html#listening-to-accents",
-    "href": "Data.html#listening-to-accents",
-    "title": "Data",
-    "section": "Listening to accents",
-    "text": "Listening to accents\nThis dataset contains …\n\nDownload: Listening_to_Accents_Comprehensibility_Accentedness.csv\n\n\nCodebook\n\n\n\nVariable\nDescription\n\n\n\n\nstudent\n…\n\n\nSchool\n…\n\n\nClass\n…\n\n\nClass\n…\n\n\n\n\n\nData Preview\n\n\n  ID Participant  Accent Comprehensibility Accentedness\n1  1           7 ChinEng                 3            7\n2  2           7     GAE                 1            1\n3  3           7     GBE                 5            6\n4  4           7  IndEng                 3            8\n5  5           7     NBE                 4            4\n6  6           7  NigEng                 2            4\n  Familiarity\n1       Never\n2  Very Often\n3       Often\n4      Rarely\n5      Rarely\n6       Never"
-  },
-  {
-    "objectID": "Coursebook.html",
-    "href": "Coursebook.html",
-    "title": "Coursebook",
-    "section": "",
-    "text": "To do: add link to coursebook online + pdf"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to Intro to R",
+    "title": "Welcome!",
     "section": "",
-    "text": "This is the course website for Module 1: Introduction to R, a 15 hour introductory course delivered at the summer school Methods in Language Sciences 2026, Ghent University. Although there is no shortage of excellent introductory courses on R these days, this particular course specifically caters to students of linguistics with little to no background in R (or programming for that matter) and whose aim is to learn basic R skills in the context of statistical data analysis.\nThis beginner-friendly course aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics are covered:"
+    "text": "This is the course website for Module 1: Introduction to R, a 15 hour introductory course delivered at the summer school Methods in Language Sciences at Ghent University.\nAlthough there is no shortage of excellent introductory courses on R these days, this particular course specifically caters to students of linguistics with little to no background in R (or programming for that matter) and who wish to learn R in the context of statistical data analysis.\nThis beginner-friendly course aims to provide participants with a solid foundation in R, empowering them to explore, analyze, and visualize data efficiently. Emphasis is placed on hands-on practical exercises and real-world examples, enabling students to immediately apply their knowledge.\nThe following key topics are covered:"
   },
   {
     "objectID": "index.html#getting-started",
     "href": "index.html#getting-started",
-    "title": "Welcome to Intro to R",
+    "title": "Welcome!",
     "section": "Getting started",
-    "text": "Getting started\n\nInstall R\nInstall RStudio\n\nGo to the Quarto website and follow the instructions: https://quarto.org/docs/get-started/"
+    "text": "Getting started\nBefore coming to class make sure to:\n\nInstall R\nInstall RStudio\n\nGo to the Quarto website and follow the instructions: https://quarto.org/docs/get-started/"
   },
   {
     "objectID": "index.html#course-materials",
     "href": "index.html#course-materials",
-    "title": "Welcome to Intro to R",
+    "title": "Welcome!",
     "section": "Course materials",
     "text": "Course materials\nAll course materials for this module are provided on this website and includes slides, R-scripts and Notebooks, exercises, datasets and further reading materials."
   },
   {
     "objectID": "index.html#instructors",
     "href": "index.html#instructors",
-    "title": "Welcome to Intro to R",
+    "title": "Welcome!",
     "section": "Instructors",
     "text": "Instructors\nGil Verbeke is a PhD researcher at the Linguistics Department of Ghent University. His research interests include second language acquisition, speech perception, phonetics and phonology. The overarching aim of his PhD dissertation is to examine how pronunciation variation in spoken English affects speech perception and word recognition for late second language learners of English. Several of his experimental studies have been published in international journals, including Bilingualism: Language and Cognition and Lingua.\nRomeo De Timmerman is a PhD researcher at the Linguistics Department of Ghent University. He is also completing a Master’s degree in computational statistics at the same university. His research focuses on language variation through both sociolinguistic and computational approaches. His current projects investigate (i) the prevalence of African American English features in blues music and (ii) potential linguistic biases against African American English in Large Language Models."
   },
   {
     "objectID": "index.html#approach",
     "href": "index.html#approach",
-    "title": "Welcome to Intro to R",
+    "title": "Welcome!",
     "section": "Approach",
-    "text": "Approach\nNothing beats hands-on instruction from an experienced instructor. Students are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience for every learner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio - which is less scary than one might think. This course also starts with base R, rather than jumping straight into the deep end with tidyverse. This is very much inspired by Norm Matloff’s course [fasteR] https://github.com/matloff/faster."
+    "text": "Approach\nNothing beats hands-on instruction from an experienced instructor. You are expected to write code and to make mistakes. Forgetting a comma or a bracket is a very rewarding experience, especially for beginners. Don’t remore friction by using genAI or LLMs from the very beginning. Yes, LLMs are incredibly good and will assist you at a later stage, but resits the temptation to use these tools as a beginner. Actually, the first three hours or so of this course are spent in R and R only, i.e., sans RStudio – which is less scary than one might think. This course also starts with base R, rather than jumping straight into the deep end with tidyverse. This is very much inspired by Norm Matloff’s course [fasteR] https://github.com/matloff/faster."
   },
   {
     "objectID": "index.html#schedule",
     "href": "index.html#schedule",
-    "title": "Welcome to Intro to R",
+    "title": "Welcome!",
     "section": "Schedule",
     "text": "Schedule\n\nDAY 1\n\n\n\nTime\nTopic\n\n\n\n\n09:00 - 10:30\nADD LINK\n\n\n11:00 - 12:30\nADD LINK\n\n\n14:00 - 15:30\nADD LINK\n\n\n16:00 - 17:30\nADD LINK\n\n\n\n\n\nDAY 2\n\n\n\nTime\nTopic\n\n\n\n\n09:00 - 10:30\nADD LINK\n\n\n11:00 - 12:30\nADD LINK\n\n\n14:00 - 15:30\nADD LINK\n\n\n16:00 - 17:30\nADD LINK\n\n\n\n\n\nDAY 3\n\n\n\nTime\nTopic\n\n\n\n\n09:00 - 10:30\nADD LINK\n\n\n11:00 - 12:30\nADD LINK"
+  },
+  {
+    "objectID": "Coursebook.html",
+    "href": "Coursebook.html",
+    "title": "Materials",
+    "section": "",
+    "text": "The coursebook as a website: Coursebook\nCoursebook\nOr if you prefer to download the pdf: https://github.com/ludovicdecuypere/IntroR_MILS2026_Book/blob/main/_book/R-for-Statistical-Data-Analysis.pdf\nAnd here are the slides:\nINCLUDE SLIDES"
+  },
+  {
+    "objectID": "Data.html",
+    "href": "Data.html",
+    "title": "Data",
+    "section": "",
+    "text": "In this course, you will explore, summarize, and visualize variables from the following three datasets:\nHere is a brief explanation for each dataset, so that you have a basic understanding of what kind of data is provided. For each dataset, the file format is provided, along with a codebook and an overview of the fist six rows of the data."
+  },
+  {
+    "objectID": "Data.html#false-beginners",
+    "href": "Data.html#false-beginners",
+    "title": "Data",
+    "section": "False beginners",
+    "text": "False beginners\nFor this part we use the FalseBeginners dataset. The dataset is based on De Wilde et al. (2019), available at https://osf.io/ndr47/. I have selected and renamed the variables for our purposes here. Table 1 provides an overview of the variables.\n\n\n\nTable 1: Codebook Falsebeginners\n\n\n\n\n\n\n\n\n\n\nID\nVariable\nDescription\n\n\n\n\n1\nStudent\nA unique identifier for each student\n\n\n2\nSchool\nA unique identifier for each school\n\n\n3\nClass\nA unique identifier for each class\n\n\n4\nPPVT\nScore for the Peabody Picture Vocabulary Test (PPVT). Maximum score = 120\n\n\n5\nSpeaking\nScore for the speaking test. Maximum score = 20\n\n\n6\nListening\nScore for the listening test. Maximum score = 25\n\n\n7\nReadingWriting\nScore for the reading and writing tests. Maximum score = 50\n\n\n8\nAttitude\nAttitude of student towards English: Positive vs. Negative\n\n\n9\nL1\nL1: Dutch vs. Multilingual\n\n\n10\nSex\nSex of student: Male vs. Female\n\n\n\n\n\n\nThe file is a tab delimited .txt-file. We open the file with read.delim(). The dataset is organised in long data format.\n\nthe text file to open,\nthe first row of the file contains the variables names,\nmissing values are marked as “NA”,\nstrings are interpreted as factors.\n\nThe first six rows of the dataset:\n\n\n  Student School Class PPVT Speaking Listening ReadingWriting Attitude    L1\n1      10     S1    1A   70        4         7             13 positive dutch\n2      14     S1    1A   79        7        14             18 positive dutch\n3       2     S1    1A   98       19        24             37 positive dutch\n4       3     S1    1A   80       11        17             30 positive dutch\n5       4     S1    1A   76        7         9             18 positive dutch\n6       5     S1    1A   85       16        17             22 positive dutch\n     Sex\n1 female\n2   male\n3   male\n4   male\n5   male\n6   male"
+  },
+  {
+    "objectID": "Data.html#accents",
+    "href": "Data.html#accents",
+    "title": "Data",
+    "section": "Accents",
+    "text": "Accents\nThis dataset is published in the data repository TROLLing (https://dataverse.no/dataverse/trolling/) as Verbeke and Simon (2023). The dataset abstract provides a summary of the data:\n\nThis dataset contains the results from 33 Flemish English as a Foreign Language (EFL) learners, who were exposed to eight native and non-native accents of English. These participants completed (i) a comprehensibility and accentedness rating task, followed by (ii) an orthographic transcription task. In the first task, listeners were asked to rate eight speakers of English on comprehensibility and accentedness on a nine-point scale (1 = easy to understand/no accent; 9 = hard to understand/strong accent). How Accentedness ratings and listeners’ Familiarity with the different accents impacted on their Comprehensibility judgements was measured using a linear mixed-effects model. The orthographic transcription task, then, was used to verify how well listeners actually understood the different accents of English (i.e. intelligibility). To that end, participants’ transcription Accuracy was measured as the number of correctly transcribed words and was estimated using a logistic mixed-effects model. Finally, the relation between listeners’ self-reported ease of understanding the different speakers (comprehensibility) and their actual understanding of the speakers (intelligibility) was assessed using a linear mixed-effects regression. R code for the data analysis is provided.\n\nThe codebook for the datafile (taken from the README file):\n\nID: Unique identifier for each line in the dataset.\nParticipant: Unique identifier for each participant.\nAccent: native and non-native accents of English\n\n“GBE” = General British English\n“GAE” = General American English\n“NBE” = Northern British English\n“SAE” = Southern American English\n“IndEng” = Indian English\n“NigEng” = Nigerian English\n“ChinEng” = Chinese English\n“SpanEng” = Spanish English\n\nComprehensibility: Listeners’ rating of how comprehensible the speaker is on a scale from 1 (= easy to understand) to 9 (= hard to understand)\nAccentedness: Listeners’ rating of how strong a speaker’s accent is on a scale from 1 (= no accent) to 9 (= strong accent)\nFamiliarity: Listeners’ familiarity with the sampled varieties of English (i.e. never; rarely; sometimes; often; very often)\n\nWe open the datafile using ´read.csv()´ as this is a comma separated text file:\nThe first six rows:\n\n\n  ID Participant  Accent Comprehensibility Accentedness Familiarity\n1  1           7 ChinEng                 3            7       Never\n2  2           7     GAE                 1            1  Very Often\n3  3           7     GBE                 5            6       Often\n4  4           7  IndEng                 3            8      Rarely\n5  5           7     NBE                 4            4      Rarely\n6  6           7  NigEng                 2            4       Never"
+  },
+  {
+    "objectID": "Data.html#vocatives",
+    "href": "Data.html#vocatives",
+    "title": "Data",
+    "section": "Vocatives",
+    "text": "Vocatives\n\nThis is the data from De latte (2023). The file is published in the online repository TROLLing (https://dataverse.no/dataverse/trolling/).\n\n\nABSTRACT: This dataset contains one datafile (.csv) used to create the graphs and tables in the paper “(Im)polite uses of vocatives in present-day Madrilenian Spanish”. It includes 534 Spanish vocative tokens, i.e. (pro)nominal terms of direct address (e.g., tío ‘dude’), which were retrieved from CORMA, a conversational corpus of peninsular Spanish compiled between 2016 and 2019. The data is annotated for (i) form, (ii) communication, (iii) semantic category, (iv) speaker’s generation, (v) speaker’s gender, (vi) relationship between speaker and hearer, (vii) socio-pragmatic character of the hosting speech act, (viii) the hearer’s reaction, and (ix) the vocative’s socio-pragmatic effect.\n\nWe open the data with ´read.csv()´. Note that this is a comma separated text file, but the semicolon “;” is used as a separator, which we specify as by means of the argument ´sep=“;”´:\nRefer to the README file of the dataset for the codebook: https://doi.org/10.18710/FOBMUQ.\nThe first six rows:\n\n\n     form communication semantic_category speaker_generation speaker_gender\n1    coño AM_GEN4_M_01a         nom_taboo               GEN4              M\n2    coño AM_GEN4_M_01a         nom_taboo               GEN4              M\n3 hermano AM_GEN4_M_01a  nom_familiarizer               GEN4              M\n4   PropN AM_GEN4_M_01a             PropN               GEN4              M\n5   PropN AM_GEN4_M_01a             PropN               GEN4              M\n6   PropN AM_GEN4_M_01a             PropN               GEN4              M\n  relationship speech_act reaction effect_voc\n1    intimates    neutral  neutral     banter\n2    intimates    neutral  neutral     banter\n3    intimates    neutral       na    neutral\n4    intimates    neutral  neutral    neutral\n5    intimates    neutral  neutral     banter\n6    intimates    neutral  neutral    neutral"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "References"
   }
 ]

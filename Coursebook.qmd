@@ -1,5 +1,13 @@
 ---
-title: "Coursebook"
+title: "Materials"
 ---
 
-To do: add link to coursebook online + pdf
+The coursebook as a website: [Coursebook](https://ludovicdecuypere.github.io/IntroR_MILS2026_EBook/){.btn .btn-primary .btn-lg role="button"}
+
+[Coursebook](https://ludovicdecuypere.github.io/IntroR_MILS2026_EBook/){.btn .btn-primary target="_blank"}
+
+Or if you prefer to download the pdf: <https://github.com/ludovicdecuypere/IntroR_MILS2026_Book/blob/main/_book/R-for-Statistical-Data-Analysis.pdf>
+
+And here are the slides: 
+
+INCLUDE SLIDES

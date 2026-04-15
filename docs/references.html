@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data – Intro to R</title>
+<title>references – Intro to R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -126,7 +125,7 @@ div.csl-indent {
 <span class="menu-text">Slides</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Data.html" aria-current="page"> 
+    <a class="nav-link" href="./Data.html"> 
 <span class="menu-text">Data</span></a>
   </li>  
 </ul>
@@ -145,230 +144,26 @@ div.csl-indent {
     <h2 id="toc-title">Contents</h2>
    
   <ul class="collapse">
-  <li><a href="#false-beginners" id="toc-false-beginners" class="nav-link active" data-scroll-target="#false-beginners">False beginners</a></li>
-  <li><a href="#accents" id="toc-accents" class="nav-link" data-scroll-target="#accents">Accents</a></li>
-  <li><a href="#vocatives" id="toc-vocatives" class="nav-link" data-scroll-target="#vocatives">Vocatives</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/ludovicdecuypere/IntroR_Course_LDC/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Data</h1>
+
+
+
+<section id="references" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" role="list">
+
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>In this course, you will explore, summarize, and visualize variables from the following three datasets:</p>
-<ol type="1">
-<li>False beginners</li>
-<li>Accents</li>
-<li>Vocatives</li>
-</ol>
-<p>Here is a brief explanation for each dataset, so that you have a basic understanding of what kind of data is provided. For each dataset, the file format is provided, along with a codebook and an overview of the fist six rows of the data.</p>
-<section id="false-beginners" class="level2">
-<h2 class="anchored" data-anchor-id="false-beginners">False beginners</h2>
-<p>For this part we use the <code>FalseBeginners</code> dataset. The dataset is based on De Wilde et al. <span class="citation" data-cites="dewilde2019">(<a href="#ref-dewilde2019" role="doc-biblioref">2019</a>)</span>, available at <a href="https://osf.io/ndr47/" class="uri">https://osf.io/ndr47/</a>. I have selected and renamed the variables for our purposes here. <a href="#tbl-falsebeginnerscodebook" class="quarto-xref">Table&nbsp;1</a> provides an overview of the variables.</p>
-<div id="tbl-falsebeginnerscodebook" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-falsebeginnerscodebook-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Codebook Falsebeginners
-</figcaption>
-<div aria-describedby="tbl-falsebeginnerscodebook-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 58%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">ID</th>
-<th style="text-align: center;">Variable</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">Student</td>
-<td style="text-align: left;">A unique identifier for each student</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">School</td>
-<td style="text-align: left;">A unique identifier for each school</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">Class</td>
-<td style="text-align: left;">A unique identifier for each class</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">PPVT</td>
-<td style="text-align: left;">Score for the Peabody Picture Vocabulary Test (PPVT). Maximum score = 120</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">Speaking</td>
-<td style="text-align: left;">Score for the speaking test. Maximum score = 20</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">Listening</td>
-<td style="text-align: left;">Score for the listening test. Maximum score = 25</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">ReadingWriting</td>
-<td style="text-align: left;">Score for the reading and writing tests. Maximum score = 50</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">Attitude</td>
-<td style="text-align: left;">Attitude of student towards English: Positive vs.&nbsp;Negative</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">L1</td>
-<td style="text-align: left;">L1: Dutch vs.&nbsp;Multilingual</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">Sex</td>
-<td style="text-align: left;">Sex of student: Male vs.&nbsp;Female</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<p>The file is a tab delimited .txt-file. We open the file with <code>read.delim()</code>. The dataset is organised in long data format.</p>
-<ol type="1">
-<li>the text file to open,</li>
-<li>the first row of the file contains the variables names,</li>
-<li>missing values are marked as “NA”,</li>
-<li>strings are interpreted as factors.</li>
-</ol>
-<p>The first six rows of the dataset:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>  Student School Class PPVT Speaking Listening ReadingWriting Attitude    L1
-1      10     S1    1A   70        4         7             13 positive dutch
-2      14     S1    1A   79        7        14             18 positive dutch
-3       2     S1    1A   98       19        24             37 positive dutch
-4       3     S1    1A   80       11        17             30 positive dutch
-5       4     S1    1A   76        7         9             18 positive dutch
-6       5     S1    1A   85       16        17             22 positive dutch
-     Sex
-1 female
-2   male
-3   male
-4   male
-5   male
-6   male</code></pre>
-</div>
-</div>
-</section>
-<section id="accents" class="level2">
-<h2 class="anchored" data-anchor-id="accents">Accents</h2>
-<p>This dataset is published in the data repository <strong>TROLLing</strong> (<a href="https://dataverse.no/dataverse/trolling/" class="uri">https://dataverse.no/dataverse/trolling/</a>) as Verbeke and Simon <span class="citation" data-cites="VerbekeSimonData2023">(<a href="#ref-VerbekeSimonData2023" role="doc-biblioref">2023</a>)</span>. The dataset abstract provides a summary of the data:</p>
-<blockquote class="blockquote">
-<p>This dataset contains the results from 33 Flemish English as a Foreign Language (EFL) learners, who were exposed to eight native and non-native accents of English. These participants completed (i) a comprehensibility and accentedness rating task, followed by (ii) an orthographic transcription task. In the first task, listeners were asked to rate eight speakers of English on comprehensibility and accentedness on a nine-point scale (1 = easy to understand/no accent; 9 = hard to understand/strong accent). How Accentedness ratings and listeners’ Familiarity with the different accents impacted on their Comprehensibility judgements was measured using a linear mixed-effects model. The orthographic transcription task, then, was used to verify how well listeners actually understood the different accents of English (i.e.&nbsp;intelligibility). To that end, participants’ transcription Accuracy was measured as the number of correctly transcribed words and was estimated using a logistic mixed-effects model. Finally, the relation between listeners’ self-reported ease of understanding the different speakers (comprehensibility) and their actual understanding of the speakers (intelligibility) was assessed using a linear mixed-effects regression. R code for the data analysis is provided.</p>
-</blockquote>
-<p>The codebook for the datafile (taken from the README file):</p>
-<ul>
-<li><strong>ID</strong>: Unique identifier for each line in the dataset.</li>
-<li><strong>Participant</strong>: Unique identifier for each participant.</li>
-<li><strong>Accent</strong>: native and non-native accents of English
-<ul>
-<li>“GBE” = General British English</li>
-<li>“GAE” = General American English</li>
-<li>“NBE” = Northern British English</li>
-<li>“SAE” = Southern American English</li>
-<li>“IndEng” = Indian English</li>
-<li>“NigEng” = Nigerian English</li>
-<li>“ChinEng” = Chinese English</li>
-<li>“SpanEng” = Spanish English</li>
-</ul></li>
-<li><strong>Comprehensibility</strong>: Listeners’ rating of how comprehensible the speaker is on a scale from 1 (= easy to understand) to 9 (= hard to understand)</li>
-<li><strong>Accentedness</strong>: Listeners’ rating of how strong a speaker’s accent is on a scale from 1 (= no accent) to 9 (= strong accent)</li>
-<li><strong>Familiarity</strong>: Listeners’ familiarity with the sampled varieties of English (i.e.&nbsp;never; rarely; sometimes; often; very often)</li>
-</ul>
-<p>We open the datafile using ´read.csv()´ as this is a comma separated text file:</p>
-<p>The first six rows:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>  ID Participant  Accent Comprehensibility Accentedness Familiarity
-1  1           7 ChinEng                 3            7       Never
-2  2           7     GAE                 1            1  Very Often
-3  3           7     GBE                 5            6       Often
-4  4           7  IndEng                 3            8      Rarely
-5  5           7     NBE                 4            4      Rarely
-6  6           7  NigEng                 2            4       Never</code></pre>
-</div>
-</div>
-</section>
-<section id="vocatives" class="level2">
-<h2 class="anchored" data-anchor-id="vocatives">Vocatives</h2>
-<ul>
-<li>This is the data from De latte <span class="citation" data-cites="delatte2023">(<a href="#ref-delatte2023" role="doc-biblioref">2023</a>)</span>. The file is published in the online repository <strong>TROLLing</strong> (<a href="https://dataverse.no/dataverse/trolling/" class="uri">https://dataverse.no/dataverse/trolling/</a>).</li>
-</ul>
-<blockquote class="blockquote">
-<p>ABSTRACT: This dataset contains one datafile (.csv) used to create the graphs and tables in the paper “(Im)polite uses of vocatives in present-day Madrilenian Spanish”. It includes 534 Spanish vocative tokens, i.e.&nbsp;(pro)nominal terms of direct address (e.g., tío ‘dude’), which were retrieved from CORMA, a conversational corpus of peninsular Spanish compiled between 2016 and 2019. The data is annotated for (i) form, (ii) communication, (iii) semantic category, (iv) speaker’s generation, (v) speaker’s gender, (vi) relationship between speaker and hearer, (vii) socio-pragmatic character of the hosting speech act, (viii) the hearer’s reaction, and (ix) the vocative’s socio-pragmatic effect.</p>
-</blockquote>
-<p>We open the data with ´read.csv()´. Note that this is a comma separated text file, but the semicolon “;” is used as a separator, which we specify as by means of the argument ´sep=“;”´:</p>
-<p>Refer to the README file of the dataset for the codebook: <a href="https://doi.org/10.18710/FOBMUQ" class="uri">https://doi.org/10.18710/FOBMUQ</a>.</p>
-<p>The first six rows:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>     form communication semantic_category speaker_generation speaker_gender
-1    coño AM_GEN4_M_01a         nom_taboo               GEN4              M
-2    coño AM_GEN4_M_01a         nom_taboo               GEN4              M
-3 hermano AM_GEN4_M_01a  nom_familiarizer               GEN4              M
-4   PropN AM_GEN4_M_01a             PropN               GEN4              M
-5   PropN AM_GEN4_M_01a             PropN               GEN4              M
-6   PropN AM_GEN4_M_01a             PropN               GEN4              M
-  relationship speech_act reaction effect_voc
-1    intimates    neutral  neutral     banter
-2    intimates    neutral  neutral     banter
-3    intimates    neutral       na    neutral
-4    intimates    neutral  neutral    neutral
-5    intimates    neutral  neutral     banter
-6    intimates    neutral  neutral    neutral</code></pre>
-</div>
-</div>
-
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-delatte2023" class="csl-entry" role="listitem">
-De Latte, Fien. 2023. <span>“Replication Data for: (Im)polite Uses of Vocatives in Present-Day Madrilenian Spanish.”</span> DataverseNO. <a href="https://doi.org/10.18710/FOBMUQ">https://doi.org/10.18710/FOBMUQ</a>.
-</div>
-<div id="ref-dewilde2019" class="csl-entry" role="listitem">
-De Wilde, Vanessa, Marc Brysbaert, and June Eyckmans. 2019. <span>“Learning English Through Out-of-School Exposure. Which Levels of Language Proficiency Are Attained and Which Types of Input Are Important?”</span> <em>Bilingualism: Language and Cognition</em> 23 (1): 171–85. <a href="https://doi.org/10.1017/s1366728918001062">https://doi.org/10.1017/s1366728918001062</a>.
-</div>
-<div id="ref-VerbekeSimonData2023" class="csl-entry" role="listitem">
-Verbeke, Gil, and Ellen Simon. 2023. <span>“<span class="nocase">Replication Data for: Listening to Accents: Comprehensibility, accentedness and intelligibility of native and non-native English speech</span>.”</span> DataverseNO. <a href="https://doi.org/10.18710/8F0Q0L">https://doi.org/10.18710/8F0Q0L</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

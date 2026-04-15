@@ -4,77 +4,113 @@ execute:
   echo: false
   warning: false
   message: false
+bibliography: references.bib
+
 ---
 
-Below you will find the datasets used in this course. You can download them directly or use the provided links to load them into R/RStudio.
+In this course, you will explore, summarize, and visualize variables from the following three datasets:
+
+1. False beginners
+2. Accents
+3. Vocatives
+
+Here is a brief explanation for each dataset, so that you have a basic understanding of what kind of data is provided. For each dataset, the file format is provided, along with a codebook and an overview of the fist six rows of the data. 
 
 ## False beginners
 
-This dataset contains ... 
+For this part we use the `FalseBeginners` dataset. The dataset is based on De Wilde et al. [-@dewilde2019], available at <https://osf.io/ndr47/>. I have selected and renamed the variables for our purposes here. @tbl-falsebeginnerscodebook provides an overview of the variables.
 
-* **Download:** FalseBeginners.txt
-* **Format:** tab delimited text file
+| ID  |    Variable    | Description                                                               |
+|:-------------:|:-------------:|:------------------------------------------|
+|  1  |    Student     | A unique identifier for each student                                      |
+|  2  |     School     | A unique identifier for each school                                       |
+|  3  |     Class      | A unique identifier for each class                                        |
+|  4  |      PPVT      | Score for the Peabody Picture Vocabulary Test (PPVT). Maximum score = 120 |
+|  5  |    Speaking    | Score for the speaking test. Maximum score = 20                           |
+|  6  |   Listening    | Score for the listening test. Maximum score = 25                          |
+|  7  | ReadingWriting | Score for the reading and writing tests. Maximum score = 50               |
+|  8  |    Attitude    | Attitude of student towards English: Positive vs. Negative                |
+|  9  |       L1       | L1: Dutch vs. Multilingual                                                |
+| 10  |      Sex       | Sex of student: Male vs. Female                                           |
 
-#### Codebook
+: Codebook Falsebeginners {#tbl-falsebeginnerscodebook}
 
-| Variable | Description |
-|----------|-------------|
-| `student` | ... |
-| `School` | ... |
-| `Class` | ... | 
-| `Class` | ... |
-
-#### Data Preview
+The file is a tab delimited .txt-file. We open the file with `read.delim()`. The dataset is organised in long data format.
 
 ```{r}
-fb <- read.delim("FalseBeginners.txt") 
+fb <- read.delim("FalseBeginners.txt",                # <1>
+                 header = TRUE,                       # <2>
+                 na.strings = NA,                     # <3>
+                 stringsAsFactors=TRUE)               # <4>
+```
+
+1.  the text file to open,
+2.  the first row of the file contains the variables names,
+3.  missing values are marked as "NA",
+4.  strings are interpreted as factors.
+
+The first six rows of the dataset: 
+
+```{r}
 head(fb)
+```
+
+## Accents
+
+This dataset is published in the data repository **TROLLing** (<https://dataverse.no/dataverse/trolling/>) as Verbeke and Simon [-@VerbekeSimonData2023]. The dataset abstract provides a summary of the data:
+
+> This dataset contains the results from 33 Flemish English as a Foreign Language (EFL) learners, who were exposed to eight native and non-native accents of English. These participants completed (i) a comprehensibility and accentedness rating task, followed by (ii) an orthographic transcription task. In the first task, listeners were asked to rate eight speakers of English on comprehensibility and accentedness on a nine-point scale (1 = easy to understand/no accent; 9 = hard to understand/strong accent). How Accentedness ratings and listeners' Familiarity with the different accents impacted on their Comprehensibility judgements was measured using a linear mixed-effects model. The orthographic transcription task, then, was used to verify how well listeners actually understood the different accents of English (i.e. intelligibility). To that end, participants' transcription Accuracy was measured as the number of correctly transcribed words and was estimated using a logistic mixed-effects model. Finally, the relation between listeners' self-reported ease of understanding the different speakers (comprehensibility) and their actual understanding of the speakers (intelligibility) was assessed using a linear mixed-effects regression. R code for the data analysis is provided.
+
+The codebook for the datafile (taken from the README file):
+
+-   **ID**: Unique identifier for each line in the dataset.
+-   **Participant**: Unique identifier for each participant.
+-   **Accent**: native and non-native accents of English
+    -   "GBE" = General British English
+    -   "GAE" = General American English
+    -   "NBE" = Northern British English
+    -   "SAE" = Southern American English
+    -   "IndEng" = Indian English
+    -   "NigEng" = Nigerian English
+    -   "ChinEng" = Chinese English
+    -   "SpanEng" = Spanish English
+-   **Comprehensibility**: Listeners' rating of how comprehensible the speaker is on a scale from 1 (= easy to understand) to 9 (= hard to understand)
+-   **Accentedness**: Listeners' rating of how strong a speaker's accent is on a scale from 1 (= no accent) to 9 (= strong accent)
+-   **Familiarity**: Listeners' familiarity with the sampled varieties of English (i.e. never; rarely; sometimes; often; very often)
+
+We open the datafile using ´read.csv()´ as this is a comma separated text file:
+
+```{r}
+comp <- read.csv("Listening_to_Accents_Comprehensibility_Accentedness.csv", 
+                 stringsAsFactors=TRUE)
+```
+
+The first six rows: 
+
+```{r}
+head(comp)
 ```
 
 ## Vocatives
 
-dataset_ImPoliteVocatives_20230530.csv
+-   This is the data from De latte [-@delatte2023]. The file is published in the online repository **TROLLing** (<https://dataverse.no/dataverse/trolling/>).
 
-This dataset contains ... 
+> ABSTRACT: This dataset contains one datafile (.csv) used to create the graphs and tables in the paper "(Im)polite uses of vocatives in present-day Madrilenian Spanish". It includes 534 Spanish vocative tokens, i.e. (pro)nominal terms of direct address (e.g., tío 'dude'), which were retrieved from CORMA, a conversational corpus of peninsular Spanish compiled between 2016 and 2019. The data is annotated for (i) form, (ii) communication, (iii) semantic category, (iv) speaker's generation, (v) speaker's gender, (vi) relationship between speaker and hearer, (vii) socio-pragmatic character of the hosting speech act, (viii) the hearer's reaction, and (ix) the vocative's socio-pragmatic effect.
 
-* **Download:** dataset_ImPoliteVocatives_20230530.csv
-
-#### Codebook
-
-| Variable | Description |
-|----------|-------------|
-| `student` | ... |
-| `School` | ... |
-| `Class` | ... | 
-| `Class` | ... |
-
-#### Data Preview
+We open the data with ´read.csv()´. Note that this is a comma separated text file, but the semicolon ";" is used as a separator, which we specify as by means of the argument ´sep=";"´:
 
 ```{r}
-voc <- read.csv2("dataset_ImPoliteVocatives_20230530.csv") 
-options(width = 60) # to print columns side by side
-head(voc)
+voc <- read.csv("dataset_ImPoliteVocatives_20230530.csv", 
+                     sep=";",                                  
+                     stringsAsFactors=TRUE)                    
+
 ```
 
-## Listening to accents
+Refer to the README file of the dataset for the codebook: <https://doi.org/10.18710/FOBMUQ>.
 
-This dataset contains ... 
-
-* **Download:** Listening_to_Accents_Comprehensibility_Accentedness.csv
-
-#### Codebook
-
-| Variable | Description |
-|----------|-------------|
-| `student` | ... |
-| `School` | ... |
-| `Class` | ... | 
-| `Class` | ... |
-
-#### Data Preview
+The first six rows: 
 
 ```{r}
-accent <- read.csv("Listening_to_Accents_Comprehensibility_Accentedness.csv") 
-head(accent)
+head(voc)
 ```
 
